@@ -1,10 +1,9 @@
 <template>
-    
     <footer class="footer bg-dark text-center text-white">
     <!-- Grid container -->
-    <div class="container p-4 pb-0">
+    <div class="container p-4">
     <!-- Section: Social media -->
-    <section class="mb-4">
+    <section class="mb-0">
         <!-- Google -->
         <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
             <i class="bi bi-geo-alt-fill"></i>
@@ -24,8 +23,6 @@
     <!-- Section: Social media -->
     </div>
     <!-- Grid container -->
-
-  
     </footer>
 </template>
 

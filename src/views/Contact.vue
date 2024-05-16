@@ -1,22 +1,15 @@
 <template>
     <main>
-       <body>
-           <Carosello />
-           <Divider />
-       </body>
+        <body>
+            
+        </body>
     </main>
 </template>
 
 <script>
-import Carosello from '../components/Carosello.vue';
-import Divider from '../components/Divider.vue';
-export default {
-    components: {
-        Carosello,
-        Divider,
-    },
 
-    name: 'Home',
+export default {
+    name: 'Contact',
     data() {
         return {
             msg: 'Welcome to Your Vue.js App',
@@ -25,7 +18,7 @@ export default {
         }
     },
     mounted() {
-        console.log('Home component mounted.')
+        console.log('Contact component mounted.')
     },
     methods: {
         // Add your methods here
