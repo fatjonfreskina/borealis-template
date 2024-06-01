@@ -1,19 +1,19 @@
 <script>
-import Title from '../components/Title.vue';
+import Title from "../components/Title.vue";
 export default {
-    name: 'About',
+    name: "About",
     components: {
-        Title
+        Title,
     },
     data() {
         return {
-            msg: 'Welcome to Your Vue.js App',
-            companyName: 'Company Name',
-            companyQuote: 'Company Quote Here ...'
-        }
+            msg: "Welcome to Your Vue.js App",
+            companyName: "Company Name",
+            companyQuote: "Company Quote Here ...",
+        };
     },
     mounted() {
-        console.log('About view mounted.')
+        console.log("About view mounted.");
     },
     methods: {
         // Add your methods here
@@ -26,11 +26,10 @@ export default {
     },
     filters: {
         // Add your filters here
-    }
-}
+    },
+};
 </script>
 
 <template>
-    <Title title="About us" subtitle="Test"/>
+    <Title title="About us" subtitle="Test" />
 </template>
-

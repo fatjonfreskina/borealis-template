@@ -33,21 +33,11 @@ export default {
 <template>
   <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
-      <button
-        v-for="(img, index) in imgs"
-        :key="img.id"
-        :data-bs-target="'#hero-carousel'"
-        :data-bs-slide-to="index"
-        :class="{ active: index === 0 }"
-        :aria-label="'Slide ' + (index + 1)"
-      ></button>
+      <button v-for="(img, index) in imgs" :key="img.id" :data-bs-target="'#hero-carousel'" :data-bs-slide-to="index"
+        :class="{ active: index === 0 }" :aria-label="'Slide ' + (index + 1)"></button>
     </div>
     <div class="carousel-inner">
-      <div
-        v-for="(img, index) in imgs"
-        :key="img.id"
-        :class="['carousel-item', 'c-item', { active: index === 0 }]"
-      >
+      <div v-for="(img, index) in imgs" :key="img.id" :class="['carousel-item', 'c-item', { active: index === 0 }]">
         <img :src="img.src" class="d-block w-100 c-img" :alt="img.alt" />
       </div>
     </div>
