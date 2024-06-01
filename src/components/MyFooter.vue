@@ -1,7 +1,8 @@
 <template>
-    <footer class="footer bg-dark text-center text-white">
+    <div class="mobile-margin visible-xs"></div>
+    <footer class="footer bg-dark text-center text-white py-3">
     <!-- Grid container -->
-    <div class="container p-4">
+    <div class="container p-2">
     <!-- Section: Social media -->
     <section class="mb-0">
         <!-- Google -->
@@ -18,8 +19,9 @@
         <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
             <i class="bi bi-envelope"></i>
         </a>
-
     </section>
+    <hr/>
+    <p class="text-center">© 2022 Company, Inc</p>
     <!-- Section: Social media -->
     </div>
     <!-- Grid container -->
@@ -28,8 +30,10 @@
 
 <style scoped>
 footer {
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     width: 100%;
 }
+
+.mobile-margin { margin-top: 50px; }
 </style>

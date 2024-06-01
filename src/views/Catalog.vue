@@ -1,15 +1,12 @@
 <script>
-import Carosello from "../components/Carosello.vue";
-import Divider from "../components/Divider.vue";
-import Gallery from "../components/Gallery.vue";
+import CatalogGallery from "../components/CatalogGallery.vue";
+import Title from "../components/Title.vue";
 export default {
   components: {
-    Carosello,
-    Divider,
-    Gallery,
+    Title,
+    CatalogGallery,
   },
-
-  name: "Home",
+  name: "Catalog",
   data() {
     return {
       msg: "Welcome to Your Vue.js App",
@@ -18,7 +15,7 @@ export default {
     };
   },
   mounted() {
-    console.log("Home view mounted.");
+    console.log("Catalog view mounted.");
   },
   methods: {
     // Add your methods here
@@ -36,10 +33,8 @@ export default {
 </script>
 
 <template>
-  <Carosello />
-  <Gallery />
+  <Title
+    title="Catalog"
+    subtitle="Choose the best plan for your business"/>
+  <CatalogGallery />
 </template>
-
-<style scoped>
-
-</style>

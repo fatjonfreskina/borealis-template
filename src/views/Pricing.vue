@@ -1,9 +1,11 @@
 <script>
-import Title from '../components/Title.vue';
+import Title from '../components/Title.vue'
+import PricingPlans from '../components/PricingPlans.vue'
 export default {
-    name: 'About',
+    name: 'Pricing',
     components: {
-        Title
+        Title,
+        PricingPlans
     },
     data() {
         return {
@@ -13,7 +15,7 @@ export default {
         }
     },
     mounted() {
-        console.log('About view mounted.')
+        console.log('Pricing view mounted.')
     },
     methods: {
         // Add your methods here
@@ -31,6 +33,7 @@ export default {
 </script>
 
 <template>
-    <Title title="About us" subtitle="Test"/>
+    <Title title="Pricing" subtitle="Choose the best plan for your business" />
+    <PricingPlans />
 </template>
 

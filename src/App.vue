@@ -1,17 +1,27 @@
 <script setup>
-import NavBar from './components/Navbar.vue';
-import MyFooter from './components/MyFooter.vue';
+import NavBar from "./components/Navbar.vue";
+import MyFooter from "./components/MyFooter.vue";
 </script>
 
 <template>
-  <NavBar/>
-  <router-view/>
-  <MyFooter/>
+  <body>
+    <NavBar />
+    <main>
+      <router-view />
+    </main>
+    <MyFooter />
+  </body>
 </template>
 
 <style scoped>
-main {
-    margin-bottom: 56px;
-    /* background-color: #f8f9fa; */
+body{
+  height: 100%;
+  min-height: 100%;
+}
+
+main{
+  min-height: 100%;
+  overflow: auto;
+  padding-bottom: 5%;
 }
 </style>

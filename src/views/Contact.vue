@@ -1,15 +1,15 @@
-<template>
-    <main>
-        <body>
-            
-        </body>
-    </main>
-</template>
-
 <script>
-
+import ContactForm from '../components/ContactForm.vue';
+import Title from '../components/Title.vue';
+import Divider from '../components/Divider.vue';
+import { DeprecationTypes } from 'vue';
 export default {
     name: 'Contact',
+    components: {
+        ContactForm,
+        Title,
+        Divider
+    },
     data() {
         return {
             msg: 'Welcome to Your Vue.js App',
@@ -18,10 +18,10 @@ export default {
         }
     },
     mounted() {
-        console.log('Contact component mounted.')
+        console.log('Contact view mounted.')
     },
     methods: {
-        // Add your methods here
+        // TODO: implement captcha + form submission
     },
     computed: {
         // Add your computed properties here
@@ -34,3 +34,9 @@ export default {
     }
 }
 </script>
+
+<template>
+    <Title title="Contact" subtitle="" />
+    <ContactForm />
+</template>
+
