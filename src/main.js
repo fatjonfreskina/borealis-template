@@ -11,6 +11,9 @@ const router = createRouter({
         { path: '/contact', name: 'Contact',    component: () => import('./views/Contact.vue') },
         { path: '/pricing', name: 'Pricing',    component: () => import('./views/Pricing.vue') },
         { path: '/catalog', name: 'Catalog',    component: () => import('./views/Catalog.vue') },
+        { path: '/booking', name: 'Booking',    component: () => import('./views/Booking.vue') },
+
+        { path: '/:pathMatch(.*)*', redirect: { name: 'Home' } },
     ],
 });
 
