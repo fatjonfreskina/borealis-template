@@ -1,6 +1,10 @@
 # Borealis template by Fatjon Freskina :snowflake:
 
-An open source, vue3 and bootstrap5 landing page template. Feel free to use it for your projects. Demo can be found [here](https://borealis-template.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/07b0b949-a350-43bc-b296-a051da2ea2b9/deploy-status)](https://app.netlify.com/sites/borealis-template/deploys)
+
+The idea is to create a simple, responsive and easy to customize template for small businesses, startups or personal projects. The template is built with Vue3 using the options API and Bootstrap5. The goal is to keep it simple and easy to customize, so you can focus on the content and not on the code.
+
+Demo can be found [here](https://borealis-template.netlify.app/) :link:
 
 ## Features :sparkles:
 
@@ -11,9 +15,7 @@ An open source, vue3 and bootstrap5 landing page template. Feel free to use it f
 
 ## ROADMAP :construction:
 
-- [ ] Add cookie consent banner :cookie:
-- [ ] Extract data to a json file :file_folder:
-- [ ] Add a booking section :calendar:
+Check the [issues](https://github.com/fatjonfreskina/landing-page-template-vuejs/issues) for the roadmap and the features that are going to be implemented. Feel free to contribute to the project. :raised_hands:
 
 ## Installation :wrench:
 
@@ -29,7 +31,8 @@ An open source, vue3 and bootstrap5 landing page template. Feel free to use it f
 
 ## Contribute :raised_hands:
 
-Contributions are more than welcome, just open a pull request!
+Contributions are more than welcome, just pick an issue, create a new branch following the pattern `<placeholder>-issueNumber` and create a pull request to main.
+**Placeholders** can be `develop`, `bugfix`, `documentation` only. If there's no issue number for the task, please create one first.
 
 ## License :page_facing_up:
 
