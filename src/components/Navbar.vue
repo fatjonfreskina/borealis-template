@@ -53,6 +53,9 @@
                             <router-link to="/catalog" class="nav-link active" aria-current="page">Catalog</router-link>
                         </li>
                         <li class="nav-item">
+                            <router-link to="/booking" class="nav-link active" aria-current="page">Booking</router-link>
+                        </li>
+                        <li class="nav-item">
                             <router-link to="/contact" class="nav-link active" aria-current="page">Contact</router-link>
                         </li>
                         <!-- <li class="nav-item">
