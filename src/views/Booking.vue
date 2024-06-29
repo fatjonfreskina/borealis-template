@@ -1,9 +1,12 @@
 <script>
 import Title from "../components/Title.vue";
+import DatePicker from "../components/DatePicker.vue";
 export default {
     components: {
         Title,
+        DatePicker,
     },
+    name: "Booking",
     data() {
         return {
             booking: {
@@ -27,4 +30,5 @@ export default {
 
 <template>
     <Title title="Booking" subtitle="Test" />
+    <DatePicker />
 </template>
