@@ -1,39 +1,20 @@
-<script>
-    export default {
-        name: 'Title',
-        props: {
-            title: {
-                type: String,
-                required: true
-            },
-            subtitle: {
-                type: String,
-                required: true
-            }
-        },
-        data() {
-            return {
-                msg: 'Welcome to Your Vue.js App',
-                companyName: 'Company Name',
-                companyQuote: 'Company Quote Here ...'
-            }
-        },
-        mounted() {
-            console.log('Title component mounted.')
-        },
-        methods: {
+<script setup>
+import { ref, defineProps } from 'vue';
 
-        },
-        computed: {
-            // Add your computed properties here
-        },
-        watch: {
-            // Add your watch properties here
-        },
-        filters: {
-            // Add your filters here
-        }
-    }
+const props = defineProps({
+  title: {
+    type: String,
+    required: true,
+  },
+  subtitle: {
+    type: String,
+    required: true,
+  },
+});
+
+const msg = ref('Welcome to Your Vue.js App');
+const companyName = ref('Company Name');
+const companyQuote = ref('Company Quote Here ...');
 </script>
 
 <template>

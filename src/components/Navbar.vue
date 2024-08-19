@@ -1,31 +1,9 @@
-<script>
-    export default {
-        name: 'Navbar',
-        data() {
-            return {
-                msg: 'Welcome to Your Vue.js App',
-                companyName: 'Company Name',
-                companyQuote: 'Company Quote Here ...'
-            }
-        },
-        mounted() {
-            console.log('Navbar component mounted.')
-        },
-        methods: {
-            collapseNavbar() {
-                // TODO: Collapse the navbar on press
-            }
-        },
-        computed: {
-            // Add your computed properties here
-        },
-        watch: {
-            // Add your watch properties here
-        },
-        filters: {
-            // Add your filters here
-        }
-    }
+<script setup>
+import { ref } from 'vue';
+
+const msg = ref('Welcome to Your Vue.js App');
+const companyName = ref('Company Name');
+const companyQuote = ref('Company Quote Here ...');
 </script>
 
 <template>
