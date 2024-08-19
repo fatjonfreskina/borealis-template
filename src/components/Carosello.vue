@@ -1,33 +1,23 @@
-<script>
-import Gallery from './Gallery.vue';
+<script setup>
+import { ref } from 'vue';
 
-export default {
-  components: {
-    Gallery,
+const imgs = ref([
+  {
+    id: 1,
+    src: '/carousel_1.jpg',
+    alt: 'Slide 1',
   },
-  name: 'Carosello',
-  data() {
-    return {
-      imgs: [
-        {
-          id: 1,
-          src: '/carousel_1.jpg',
-          alt: 'Slide 1',
-        },
-        {
-          id: 2,
-          src: '/carousel_2.jpg',
-          alt: 'Slide 2',
-        },
-        {
-          id: 3,
-          src: '/carousel_3.jpg',
-          alt: 'Slide 3',
-        },
-      ],
-    };
+  {
+    id: 2,
+    src: '/carousel_2.jpg',
+    alt: 'Slide 2',
   },
-};
+  {
+    id: 3,
+    src: '/carousel_3.jpg',
+    alt: 'Slide 3',
+  },
+]);
 </script>
 
 <template>

@@ -1,72 +1,52 @@
-<script>
-export default {
-  name: "CatalogGallery",
-  data() {
-    return {
-      msg: "Welcome to Your Vue.js App",
-      companyName: "Company Name",
-      catalog: [
-        {
-          id: 1,
-          name: "Product 1",
-          description: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-          image: "/card_1.jpg",
-          price: 100
-        },
-        {
-          id: 2,
-          name: "Product 2",
-          description: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-          image: "/card_2.jpg",
-          price: 200
-        },
-        {
-          id: 3,
-          name: "Product 3",
-          description: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-          image: "/card_1.jpg",
-          price: 300
-        },
-        {
-          id: 4,
-          name: "Product 4",
-          description: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-          image: "/card_2.jpg",
-          price: 400
-        },
-        {
-          id: 5,
-          name: "Product 5",
-          description: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-          image: "/card_1.jpg",
-          price: 500
-        },
-        {
-          id: 6,
-          name: "Product 6",
-          description: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-          image: "/card_1.jpg",
-          price: 600
-        }
-      ]
-    };
+<script setup>
+import { ref } from 'vue'
+
+const catalog = ref([
+  {
+    id: 1,
+    name: "Product 1",
+    description: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+    image: "/card_1.jpg",
+    price: 100
   },
-  mounted() {
-    console.log("CatalogGallery component mounted.");
+  {
+    id: 2,
+    name: "Product 2",
+    description: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+    image: "/card_2.jpg",
+    price: 200
   },
-  methods: {
-    // Add your methods here
+  {
+    id: 3,
+    name: "Product 3",
+    description: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+    image: "/card_1.jpg",
+    price: 300
   },
-  computed: {
-    // Add your computed properties here
+  {
+    id: 4,
+    name: "Product 4",
+    description: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+    image: "/card_2.jpg",
+    price: 400
   },
-  watch: {
-    // Add your watch properties here
+  {
+    id: 5,
+    name: "Product 5",
+    description: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+    image: "/card_1.jpg",
+    price: 500
   },
-  filters: {
-    // Add your filters here
-  },
-};
+  {
+    id: 6,
+    name: "Product 6",
+    description: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+    image: "/card_1.jpg",
+    price: 600
+  }
+]);
+const msg = ref('Welcome to Your Vue.js App');
+const companyName = ref('Company Name');    
 </script>
 
 <template>

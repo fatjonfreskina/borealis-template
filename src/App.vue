@@ -1,10 +1,9 @@
 <script setup>
-  import NavBar from "./components/Navbar.vue";
-  import MyFooter from "./components/MyFooter.vue";
+import NavBar from "./components/Navbar.vue";
+import MyFooter from "./components/MyFooter.vue";
 </script>
 
 <template>
-
   <body>
     <NavBar />
     <main>

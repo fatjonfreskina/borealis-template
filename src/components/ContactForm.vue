@@ -1,33 +1,12 @@
-<script>
-export default {
-  name: 'ContactForm',
-  props: {
-    msg: String
-  },
-  data() {
-    return {
-      companyName: 'Company Name',
-      companyQuote: 'Company Quote Here ...'
-    }
-  },
-  mounted() {
-    console.log('ContactForm component mounted.')
-  },
-  methods: {
-    // Add your methods here
-  },
-  computed: {
-    // Add your computed properties here
-  },
-  watch: {
-    // Add your watch properties here
-  },
-  filters: {
-    // Add your filters here
-  }
+<script setup>
+import { ref } from 'vue'
 
-}
+const props = defineProps({
+  msg: String
+});
 
+const companyName = ref('Company Name');
+const companyQuote = ref('Company Quote');
 </script>
 
 <template>
