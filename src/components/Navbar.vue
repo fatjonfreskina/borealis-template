@@ -10,9 +10,9 @@ const companyQuote = ref('Company Quote Here ...');
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand brand" href="#">
-                    <img src="/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
-                    La tua attività
+                <a class="navbar-brand brand">
+                    <img src="/logo.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+                    Borealis
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
