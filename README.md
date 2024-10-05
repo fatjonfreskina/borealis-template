@@ -8,14 +8,14 @@ Demo can be found [here](https://borealis-template.netlify.app/) :link:
 
 ## Features :sparkles:
 
-- Vue3 (options API)
+- Vue3 (composition API)
 - Bootstrap5
 - Responsive
-- Easy to customize
+- Easy to customize (hopefully)
 
 ## ROADMAP :construction:
 
-Check the [issues](https://github.com/fatjonfreskina/landing-page-template-vuejs/issues) for the roadmap and the features that are going to be implemented. Feel free to contribute to the project. :raised_hands:
+Check the [issues](https://github.com/fatjonfreskina/landing-page-template-vuejs/issues) for the roadmap and the features that are going to be implemented. Feel free to [contribute](#contribute-raised_hands) to the project. :raised_hands:
 
 ## Installation :wrench:
 
@@ -31,8 +31,13 @@ Check the [issues](https://github.com/fatjonfreskina/landing-page-template-vuejs
 
 ## Contribute :raised_hands:
 
-Contributions are more than welcome, just pick an issue, create a new branch following the pattern `<placeholder>-issueNumber` and create a pull request to main.
-**Placeholders** can be `develop`, `bugfix`, `documentation` only. If there's no issue number for the task, please create one first.
+Contributions are more than welcome using the ["fork and pull request"](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project) workflow. Briefly:
+
+1. Fork the project and clone it locally.
+2. Create a new branch following the pattern `<placeholder>-issueNumber`. Where placeholders can be `develop`, `bugfix`, `documentation` only.
+3. Make your changes and push them to your fork.
+4. Create a pull request to the main branch.
+5. Your pull request will be reviewed and merged.
 
 ## License :page_facing_up:
 
