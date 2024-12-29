@@ -1,14 +1,13 @@
 <script setup>
 import Carosello from "../components/Carosello.vue";
 import Gallery from "../components/Gallery.vue";
-import { ref } from 'vue';
+import PartnersComponent from "../components/PartnersComponent.vue";
+import Divider from "../components/Divider.vue";
 
-const msg = ref("Welcome to Your Vue.js App");
-const companyName = ref("Company Name");
-const companyQuote = ref("Company Quote Here ...");
 </script>
 
 <template>
   <Carosello />
   <Gallery />
+  <PartnersComponent />
 </template>
