@@ -11,6 +11,6 @@ const companyQuote = ref("Company Quote Here ...");
 <template>
   <Title
     title="Catalog"
-    subtitle="Choose the best plan for your business"/>
+    subtitle="Discover our latest collections"/>
   <CatalogGallery />
 </template>
