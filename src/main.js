@@ -2,6 +2,7 @@ import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import { createGtm } from '@gtm-support/vue-gtm';
 import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/js/bootstrap.js'
 import App from './App.vue'
 
 
@@ -41,4 +42,4 @@ if (process.env.NODE_ENV === 'production') {
 
 app.mount('#app')
 
-import 'bootstrap/dist/js/bootstrap.js'
+
